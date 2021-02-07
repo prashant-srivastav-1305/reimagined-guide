@@ -41,3 +41,5 @@ while True:
 
 print(items_bought)
 print(amount)
+# still in dev
+# to be continued....
