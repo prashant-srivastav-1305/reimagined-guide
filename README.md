@@ -1,4 +1,4 @@
-## ▶prashant-srivastav-1305/reimagined-guide
+## ▶prashant-srivastav-1305/reimagined-guide 🔴
 A supermarket billing program. 
 <br> 
 This takes in the key codes of the products, the quantity you want to buy  
