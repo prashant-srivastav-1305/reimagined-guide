@@ -1,3 +1,8 @@
+# these are just random names pls don't mind :)
+"""This contains three dictionaries in which the email ids are linked with: 1.Passowords , 2.Employee codes, and 3.Their names"""
+"""There is provision for adding and removing an employee and also for ptrinting the employee details"""
+"""This file is imported to the main file"""
+
 employee_dict = {
     "ramesh@abc.com": "ramesh123",
     "mohit@abc.com": "mohitkr07",
@@ -42,3 +47,5 @@ employee_names = {
     "vaishali@abc.com": "VAISHALI",
     "neeta@cpp.com": "NEETA"
 }
+
+# end 
