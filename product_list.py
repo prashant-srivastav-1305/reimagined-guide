@@ -1,4 +1,14 @@
 # this houses the items of the supermarket
+"""1. There are classes for the different categories of the items
+2. There is a main dictionary which contains all the keys to the item
+3. There is a price dictionary which contains all the items (formed using the update function)
+4.The classes are for systematic printing of data (to allow a bit of flexibility if needed)
+5. The keys still have to be typed manually... figuring out a way to automate
+6. Barcode support is something I wish to add, if possible...
+7. This is to be imported to the main file"""
+
+
+
 class Fruits:
     global fruits_dict
 
@@ -296,7 +306,8 @@ class Stationery:
 
 class Supermarket:
     global item_dict
-
+    
+    # assigning keys to the items is still manual
     item_dict = {
         "APPLE (1KG)": 1,
         "WATERMELON (1N)": 2,
@@ -450,9 +461,13 @@ class Supermarket:
         "COLOURED PAPERS (50N)": 625
     }
 
-
+# created an attribute supermarket_dict from the global dictionary
+# can directly be called after import
 supermarket_dict = item_dict
+
+# creating a dictionary which will contain all the prices of items
 price = {}
+# adding the items to the dictionary
 price.update(fruits_dict)
 price.update(veg_dict)
 price.update(dairy_dict)
