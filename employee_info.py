@@ -8,7 +8,7 @@ employee_dict = {
     "mohit@abc.com": "mohitkr07",
     "surendra@xyzmail.com": "surendraxp45",
     "vaishali@abc.com": "vaishali789",
-    "janhavi@cpp.com": "neeta0606",
+    "janhavi@cpp.com": "janhavi0606",
 }
 
 
@@ -45,7 +45,7 @@ employee_names = {
     "mohit@abc.com": "MOHIT",
     "surendra@xyzmail.com": "SURENDRA",
     "vaishali@abc.com": "VAISHALI",
-    "janhavi@cpp.com": "NEETA"
+    "janhavi@cpp.com": "JANHAVI"
 }
 
 # end 
